@@ -21,6 +21,7 @@ Fertilizer_Type: The type of fertilizer used to nourish the plants. Different fe
 The primary objective of this analysis is to determine whether a plant achieves its growth milestone based on environmental and care conditions. By predicting the "Growth_Milestone" outcome, we can better understand which factors are most important in promoting successful plant growth. While the "Growth_Milestone" column is our main focus, other columns are independent variables.
 
 **Understanding Data Relationships:**
+
 **1. _Dependent Variable:_** The "Growth_Milestone" column, which represents the plant’s ability to reach a significant growth stage. This is the variable we aim to predict.
 **2. Independent Variables:** Other features in the dataset, such as Soil_Type, Sunlight_Hours, Water_Frequency, Fertilizer_Type, Temperature, and Humidity, which are potential factors that influence plant growth and the likelihood of achieving a milestone. These independent variables help us understand what environmental or care factors play the most significant role in plant development.
 
