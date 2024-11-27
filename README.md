@@ -1,4 +1,5 @@
-# Plant-growth-dataset
+# Plant growth dataset
+
 This dataset contains detailed information about plants and their growth under varying conditions.
 
 In this dataset, we aim to predict the growth milestone of a plant based on various factors such as environmental conditions and plant management practices. By examining how these variables interact, we can better understand what influences plant growth and how to optimize conditions for plant health.
@@ -17,10 +18,10 @@ Fertilizer_Type: The type of fertilizer used to nourish the plants. Different fe
 (0 - the plant does not achieve the milestone, 1 - the plant achieves the milestone)
 
 **Objective:**
-The primary objective of this analysis is to determine whether a plant achieves its growth milestone based on environmental and care conditions. By predicting the "Growth_Milestone" outcome, we can better understand which factors are most important in promoting successful plant growth. While the "Growth_Milestone" column is our main focus, we may also explore how the other features—such as Soil_Type, Sunlight_Hours, Water_Frequency, Fertilizer_Type, Temperature, and Humidity—relate to the likelihood of achieving the milestone.
+The primary objective of this analysis is to determine whether a plant achieves its growth milestone based on environmental and care conditions. By predicting the "Growth_Milestone" outcome, we can better understand which factors are most important in promoting successful plant growth. While the "Growth_Milestone" column is our main focus, other columns are independent variables.
 
 **Understanding Data Relationships:**
-Dependent Variable: The "Growth_Milestone" column, which represents the plant’s ability to reach a significant growth stage. This is the variable we aim to predict.
-Independent Variables: Other features in the dataset, such as Soil_Type, Sunlight_Hours, Water_Frequency, Fertilizer_Type, Temperature, and Humidity, which are potential factors that influence plant growth and the likelihood of achieving a milestone. These independent variables help us understand what environmental or care factors play the most significant role in plant development.
+**1. _Dependent Variable:_** The "Growth_Milestone" column, which represents the plant’s ability to reach a significant growth stage. This is the variable we aim to predict.
+**2. Independent Variables:** Other features in the dataset, such as Soil_Type, Sunlight_Hours, Water_Frequency, Fertilizer_Type, Temperature, and Humidity, which are potential factors that influence plant growth and the likelihood of achieving a milestone. These independent variables help us understand what environmental or care factors play the most significant role in plant development.
 
 
