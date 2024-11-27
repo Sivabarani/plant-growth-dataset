@@ -9,12 +9,18 @@ Supervised learning is a type of machine learning where the model is trained on 
 
 **Dataset Description:**
 1. Soil_Type: The type of soil in which the plant is grown. Different soil types can have varied effects on plant growth, such as nutrient content and drainage characteristics.
+
 2. Sunlight_Hours: The total amount of sunlight the plant receives over a given period. Sunlight is a crucial factor for photosynthesis, and plants may require different amounts depending on the species.
+
 3. Water_Frequency: How often the plants are watered. Proper hydration is essential for growth, and this feature may impact whether the plant reaches a growth milestone.
-Fertilizer_Type: The type of fertilizer used to nourish the plants. Different fertilizers can provide various nutrients, which may affect plant development.
-4. Temperature: The ambient temperature conditions under which the plant is grown. Temperature plays a vital role in plant metabolism and growth rates, with some plants being more sensitive to temperature changes than others.
-5. Humidity: The level of moisture in the air surrounding the plants. Humidity can influence transpiration rates and overall plant health.
-6. Growth_Milestone: A description or marker indicating significant stages or events in the growth process of the plants.
+
+4. Fertilizer_Type: The type of fertilizer used to nourish the plants. Different fertilizers can provide various nutrients, which may affect plant development.
+
+5. Temperature: The ambient temperature conditions under which the plant is grown. Temperature plays a vital role in plant metabolism and growth rates, with some plants being more sensitive to temperature changes than others.
+
+6. Humidity: The level of moisture in the air surrounding the plants. Humidity can influence transpiration rates and overall plant health.
+
+7. Growth_Milestone: A description or marker indicating significant stages or events in the growth process of the plants.
 (0 - the plant does not achieve the milestone, 1 - the plant achieves the milestone)
 
 **Objective:**
